@@ -14,6 +14,30 @@ This project applies five supervised regression models (Linear Regression, Ridge
 - Scaled data using MinMaxScaler
 - Split into 80% training, 20% test
 
+- ## 📊 Visualizations and Outputs
+
+### 📌 Introduction
+![Introduction](screenshots/introduction.png)
+
+### 📚 Libraries Used
+![Libraries](screenshots/libraries.png)
+
+### 📈 Data Visualizations
+![Visual 1](screenshots/visual1.png)
+![Visual 2](screenshots/visual2.png)
+![Visual 3](screenshots/visual3.png)
+![Visual 4](screenshots/visual4.png)
+
+### 🧠 Model Training & Evaluation
+![Random Forest Output](screenshots/visual18.png)
+![Visual 15](screenshots/visual15.png)
+![Visual 16](screenshots/visual16.png)
+![Visual 17](screenshots/visual17.png)
+
+### 📌 Conclusion
+![Conclusion](screenshots/conclusion.png)
+
+
 ## 🧠 Models Used
 
 - Multiple Linear Regression
