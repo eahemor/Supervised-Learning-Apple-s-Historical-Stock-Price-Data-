@@ -1,4 +1,4 @@
-# Supervised-Learning-Apple-s-Historical-Stock-Price-Data
+# Apple-Stock-Price-Prediction-Supervised-Regression
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
