@@ -1,20 +1,41 @@
 # Supervised-Learning-Apple-s-Historical-Stock-Price-Data
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 This project applies five supervised regression models (Linear Regression, Ridge, Lasso, ElasticNet, and Random Forest) to forecast Apple's historical stock prices using daily data from 1980 to 2023.
+
+---
+
+## 💾 Installation
+
+To set up the project locally:
+
+```bash
+git clone https://github.com/eahemor/Supervised-Learning-Apple-s-Historical-Stock-Price-Data.git
+cd Supervised-Learning-Apple-s-Historical-Stock-Price-Data
+pip install -r requirements.txt
+```
+
+---
 
 ## 📊 Dataset
 
-- Source:f = pd.read_csv("Apple historical_data.csv")
-- Features: Open, High, Low
-- Target: Close
+- Source: `pd.read_csv("Apple historical_data.csv")`
+- Features: `Open`, `High`, `Low`
+- Target: `Close`
+
+---
 
 ## 🔧 Preprocessing Steps
 
 - Checked for missing values and outliers
-- Scaled data using MinMaxScaler
+- Scaled data using `MinMaxScaler`
 - Split into 80% training, 20% test
 
-- ## 📊 Visualizations and Outputs
+---
+
+## 📊 Visualizations and Outputs
 
 ### 📌 Introduction
 ![Introduction](screenshots/introduction.png)
@@ -37,18 +58,17 @@ This project applies five supervised regression models (Linear Regression, Ridge
 ### 📌 Conclusion
 ![Conclusion](screenshots/conclusion.png)
 
+---
 
 ## 🧠 Models Used
 
-- Multiple Linear Regression
-- Polynomial Regression
-- Support Vector Regression (SVR)
-- Decision Tree Regressor
+- Linear Regression
+- Ridge Regression
+- Lasso Regression
+- ElasticNet Regression
 - Random Forest Regressor
 
-## 🖼 Visuals and code
-
-Find model results and plots in the `/screenshots/` folder.
+---
 
 ## 🧮 Evaluation Metrics
 
@@ -56,17 +76,27 @@ Find model results and plots in the `/screenshots/` folder.
 - Root Mean Squared Error (RMSE)
 - R² Score
 
-## 📁 Files
+---
 
-- `Apple_Stock_Prediction_Code.py`: (N/A)
-- `screenshots/`: Markdown report visuals (text, code blocks, and output)
-- `data/`: Cleaned CSV (N/A)
+## 📁 Project Structure
+
+```text
+📦Supervised-Learning-Apple-s-Historical-Stock-Price-Data
+ ┣ 📂screenshots/                # Markdown report visuals (text, code blocks, outputs)
+ ┣ 📜requirements.txt            # Dependencies
+ ┣ 📜README.md                   # Project overview
+ ┣ 📜LICENSE                     # MIT License
+ ┗ 📜.gitignore
+```
+
+---
 
 ## 📝 Conclusion
 
-Random Forest provided the best balance between performance and generalization. SVR showed solid results on recent price fluctuations. All models scored high R² values.
+Random Forest provided the best balance between performance and generalisation. SVR showed solid results on recent price fluctuations. All models scored high R² values.
 
 ---
-Data Science Project
-Ebenezer Ahemor
 
+**MSc Data Science Project**
+
+**Ebenezer Ahemor**
